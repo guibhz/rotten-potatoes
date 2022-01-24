@@ -26,4 +26,4 @@ jobs:
           push: true
           tags: |
             guicb/rotten-potatoes:latest
-            guicb/rotten-potatoes:${{gihub.run_number}}
+            guicb/rotten-potatoes:${{ github.run_number }}
